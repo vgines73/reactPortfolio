@@ -1,9 +1,13 @@
 import React from "react";
 const styles = {
   cardStyles: {
-    width: "18rem",
-  
+    width: "17rem",
   },
+  buttonStyles: {
+    justifyContent: "between",
+    float: "right",
+    marginLeft: "10px"
+  }
 };
 const Card = (props) => {
   return (
@@ -12,7 +16,7 @@ const Card = (props) => {
       <div className="card-body">
         <h5 className="card-title">{props.title}</h5>
         <p className="card-text">{props.text}</p>
-        <div className="justify-content-between">
+        <div style={styles.buttonStyles}>
           <a href={props.repo} className="btn btn-primary">
             Repo
           </a>
