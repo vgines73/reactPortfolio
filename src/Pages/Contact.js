@@ -39,15 +39,19 @@ const styles = {
     backgroundColor: "transparent",
   },
   skullStyle: {
-    paddingTop: "45px"
+    paddingTop: "45px",
   },
   animeStyle: {
-    paddingTop: "45px"
+    paddingTop: "45px",
   },
   musicCodingStyles: {
     height: "200px",
-    width: "600px"
-  }
+    width: "600px",
+  },
+  textStyle: {
+    color: "whitesmoke",
+    fontFamily: "Francois One, sans-serif",
+  },
 };
 
 const Contact = () => {
@@ -63,11 +67,11 @@ const Contact = () => {
               </Col>
               <Col size="md-4">
                 <Container>
-                  <br/>
+                  <br />
                   <figure>
                     <i
                       className="fas fa-mobile-alt text-center"
-                      style={styles.imageStyle}
+                      // style={styles.imageStyle}
                       style={styles.mobileStyle}
                       alt="phone"
                     ></i>
@@ -79,7 +83,7 @@ const Contact = () => {
                   <figure>
                     <i
                       className="fas fa-envelope text-center"
-                      style={styles.imageStyle}
+                      // style={styles.imageStyle}
                       style={styles.envelopeStyle}
                       alt="envelope"
                     ></i>
@@ -94,7 +98,7 @@ const Contact = () => {
                   <figure>
                     <i
                       className="fas fa-file-pdf text-center"
-                      style={styles.imageStyle}
+                      // style={styles.imageStyle}
                       style={styles.pdfStyle}
                       alt="pdf file"
                     ></i>
@@ -112,7 +116,7 @@ const Contact = () => {
             </Row>
           </Col>
           <Col size="md-6">
-            <br/>
+            <br />
             <Carousel />
           </Col>
         </Row>
@@ -127,7 +131,12 @@ const Contact = () => {
                   className="img-thumbnail"
                 />
                 <header>
-                  <h2 className="text-center contact-text">Horror Art</h2>
+                  <h2
+                    className="text-center contact-text"
+                    style={styles.textStyle}
+                  >
+                    Horror Art
+                  </h2>
                 </header>
               </figure>
             </Col>
@@ -141,7 +150,12 @@ const Contact = () => {
                     style={styles.musicCodingStyles}
                   />
                   <header>
-                    <h2 className="text-center contact-text">Music</h2>
+                    <h2
+                      className="text-center contact-text"
+                      style={styles.textStyle}
+                    >
+                      Music
+                    </h2>
                   </header>
                   <img
                     src={codingImage}
@@ -150,7 +164,12 @@ const Contact = () => {
                     style={styles.musicCodingStyles}
                   />
                   <header>
-                    <h2 className="text-center contact-text">Coding</h2>
+                    <h2
+                      className="text-center contact-text"
+                      style={styles.textStyle}
+                    >
+                      Coding
+                    </h2>
                   </header>
                 </figure>
               </Row>
@@ -163,7 +182,9 @@ const Contact = () => {
                   class="img-thumbnail"
                 />
                 <header>
-                  <h2 class="text-center contact-text">Anime Art</h2>
+                  <h2 class="text-center contact-text" style={styles.textStyle}>
+                    Anime Art
+                  </h2>
                 </header>
               </figure>
             </Col>

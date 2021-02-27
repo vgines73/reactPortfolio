@@ -1,7 +1,7 @@
 module.exports = {
   body: {
-    fontFamily: 'Roboto , sans-serif',
-    color: 'grey',
-    backgroundColor: 'black'
-  }
-}
+    fontFamily: "Roboto , sans-serif",
+    color: "grey",
+    backgroundColor: "black",
+  },
+};

@@ -9,6 +9,7 @@ const styles = {
     width: "600px",
   },
 };
+
 const Carousel = () => {
   return (
     <nav

@@ -2,12 +2,12 @@ import React from "react";
 
 const styles = {
   inputStyle: {
-    minWidth: "300px"
+    minWidth: "300px",
   },
   buttonStyle: {
-    float: "right"
-  }
-}
+    float: "right",
+  },
+};
 
 const SearchForm = () => {
   return (

@@ -3,7 +3,7 @@ import { Col } from "../Components/Column/Col";
 import { Container } from "../Components/Container/Container";
 import { Row } from "../Components/Row/Row";
 import Wrapper from "../Components/Wrapper/Wrapper";
-import wrapperStyle from '../Components/Wrapper/WrapperStyles'
+import wrapperStyle from "../Components/Wrapper/WrapperStyles";
 import imageOne from "../Components/images/home-images/image1.jpeg";
 import imageTwo from "../Components/images/home-images/image2.jpg";
 import imageThree from "../Components/images/home-images/image3.jpeg";
@@ -19,8 +19,13 @@ const styles = {
   },
   iconsStyle: {
     marginRight: "3px",
-  }
+  },
+  textStyle: {
+    color: "whitesmoke",
+    fontFamily: "Francois One, sans-serif",
+  },
 };
+
 const Home = () => {
   return (
     <Wrapper style={wrapperStyle.pads}>
@@ -29,9 +34,7 @@ const Home = () => {
           <Col size="md-8">
             <Row>
               <Col size="md-4">
-                <Header>
-                  About Me
-                </Header>
+                <Header>About Me</Header>
                 <div>
                   <img
                     src={imageOne}
@@ -72,14 +75,12 @@ const Home = () => {
                       target="blank"
                     ></i>
                   </a>
-                  <a
-                    href="https://www.linkedin.com/in/vincent-gines-oh-yeah"
-                  >
-                    <i 
-                    className="fab fa-linkedin"
-                    style={styles.iconsStyle}
-                    aria-hidden="true"
-                    target="blank"
+                  <a href="https://www.linkedin.com/in/vincent-gines-oh-yeah">
+                    <i
+                      className="fab fa-linkedin"
+                      style={styles.iconsStyle}
+                      aria-hidden="true"
+                      target="blank"
                     ></i>
                   </a>
                 </nav>
@@ -133,7 +134,9 @@ const Home = () => {
           <Col size="md-4">
             <Container>
               <div>
-                <h2 className="text-center">My Family</h2>
+                <h2 className="text-center" style={styles.textStyle}>
+                  My Family
+                </h2>
               </div>
               <Col size="md-12">
                 <img
@@ -182,7 +185,9 @@ const Home = () => {
         <Row>
           <Col size="md-4">
             <header>
-              <h2 className="text-center">Hobbies and Interests</h2>
+              <h2 className="text-center" style={styles.textStyle}>
+                Hobbies and Interests
+              </h2>
             </header>
             <p>
               Besides being a sports fanatic and active in sports, I enjoy
@@ -196,10 +201,12 @@ const Home = () => {
           {/* Skills Section */}
           <Col size="md-4">
             <header>
-              <h2 className="text-center">Skills</h2>
+              <h2 className="text-center" style={styles.textStyle}>
+                Skills
+              </h2>
             </header>
             <article>
-              <p>Front End - React: 90%</p>
+              Front End - React: 90%
               <div className="progress">
                 <div
                   className="progress-bar bg-primary"
@@ -213,7 +220,7 @@ const Home = () => {
               <br />
             </article>
             <article>
-              <p>Javascript: 80%</p>
+              Javascript: 80%
               <div className="progress">
                 <div
                   className="progress-bar bg-primary"
@@ -227,7 +234,7 @@ const Home = () => {
               <br />
             </article>
             <article>
-              <p>Back End - Mongoose: 90%</p>
+              Back End - Mongoose: 90%
               <div className="progress">
                 <div
                   className="progress-bar bg-primary"
@@ -241,7 +248,7 @@ const Home = () => {
               <br />
             </article>
             <article>
-              <p>Frameworks - Bootstrap/Materialize: 80%</p>
+              Frameworks - Bootstrap/Materialize: 80%
               <div className="progress">
                 <div
                   className="progress-bar bg-primary"

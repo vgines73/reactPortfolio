@@ -7,12 +7,16 @@ import Wrapper from "../Components/Wrapper/Wrapper";
 import Card from "../Components/Card/Card";
 import projOneImage from "../Components/images/portfolio-images/thumbnails/superhero-showdown.png";
 import projTwoImage from "../Components/images/portfolio-images/thumbnails/piece-of-art.png";
-import pwdGenImage from "../Components/images/portfolio-images/thumbnails/password-generator.png";
+import myImage from "../Components/images/portfolio-images/thumbnails/image1.jpeg";
+import materializePortImage from "../Components/images/portfolio-images/thumbnails/materialize-portfolio.png";
+import pwdGenImage from "../Components/images/portfolio-images/thumbnails/random-password-generator.png";
 import dayPlannerImage from "../Components/images/portfolio-images/thumbnails/day-planner.png";
 import weatherDashImage from "../Components/images/portfolio-images/thumbnails/weather-dashboard.png";
+import employeeDirImage from "../Components/images/portfolio-images/thumbnails/employee-directory.png";
 import readMeImage from "../Components/images/portfolio-images/thumbnails/read-me-generator.png";
 import tempEngineImage from "../Components/images/portfolio-images/thumbnails/template-engine-employee-summary.png";
 import burgerImage from "../Components/images/portfolio-images/thumbnails/burger-app.png";
+import fitnessTrackerImage from "../Components/images/portfolio-images/thumbnails/workout-tracker.png";
 
 const Portfolio = () => {
   return (
@@ -46,22 +50,22 @@ const Portfolio = () => {
               </Col>
               <Col size="md-3">
                 <Card
-                  name="nature cliffs"
-                  title="Project 2: Piece of Art"
-                  image={projTwoImage}
-                  text="Post your Artwork"
-                  repo="https://github.com/vgines73/project_2"
-                  link="https://ancient-waters-03417.herokuapp.com/"
+                  name="project 3"
+                  title="Project 3 TBD"
+                  image={myImage}
+                  text="placeholder"
+                  repo="#"
+                  link="#"
                 ></Card>
               </Col>
               <Col size="md-3">
                 <Card
-                  name="nature cliffs"
-                  title="Project 2: Piece of Art"
-                  image={projTwoImage}
-                  text="Post your Artwork"
-                  repo="https://github.com/vgines73/project_2"
-                  link="https://ancient-waters-03417.herokuapp.com/"
+                  name="materialize portfolio"
+                  title="Materialize Portfolio"
+                  image={materializePortImage}
+                  text="Portfolio using Materialize"
+                  repo="https://github.com/vgines73/materializePortfolio"
+                  link="https://vgines73.github.io/materializePortfolio/"
                 ></Card>
               </Col>
             </Row>
@@ -99,12 +103,12 @@ const Portfolio = () => {
               </Col>
               <Col size="md-3">
                 <Card
-                  name="nature cliffs"
-                  title="Project 2: Piece of Art"
-                  image={projTwoImage}
-                  text="Post your Artwork"
-                  repo="https://github.com/vgines73/project_2"
-                  link="https://ancient-waters-03417.herokuapp.com/"
+                  name="employee directory"
+                  title="Employee Directory"
+                  image={employeeDirImage}
+                  text="React Search Employee Directory"
+                  repo="https://github.com/vgines73/employeeDirectory"
+                  link="https://employee-directory-oh-yeah.herokuapp.com/"
                 ></Card>
               </Col>
             </Row>
@@ -142,12 +146,12 @@ const Portfolio = () => {
               </Col>
               <Col size="md-3">
                 <Card
-                  name="nature cliffs"
-                  title="Project 2: Piece of Art"
-                  image={projTwoImage}
-                  text="Post your Artwork"
-                  repo="https://github.com/vgines73/project_2"
-                  link="https://ancient-waters-03417.herokuapp.com/"
+                  name="workout tracker"
+                  title="Fitness Tracker"
+                  image={fitnessTrackerImage}
+                  text="Workout Storing App"
+                  repo="https://github.com/vgines73/workoutTrackerOhYeah"
+                  link="https://mysterious-wildwood-43781.herokuapp.com/"
                 ></Card>
               </Col>
             </Row>

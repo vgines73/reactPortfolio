@@ -3,13 +3,11 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Footer from "./Components/Footer/Footer";
 import Nav from "./Components/Nav/Nav";
 import Wrapper from "./Components/Wrapper/Wrapper";
-import wrapperStyle from './Components/Wrapper/WrapperStyles'
+import wrapperStyle from "./Components/Wrapper/WrapperStyles";
 import Home from "./Pages/Home";
 import Contact from "./Pages/Contact";
 import Portfolio from "./Pages/Portfolio";
-import appStyles from "./AppStyles.js"
-
-// import './App.css';
+import appStyles from "./AppStyles.js";
 
 function App() {
   return (

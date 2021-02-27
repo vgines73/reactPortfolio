@@ -1,17 +1,21 @@
 import React from "react";
+
 const styles = {
   cardStyles: {
     width: "17rem",
+    display: "flex",
+    justifyContent: "space-around",
+    marginBottom: "10px",
   },
   buttonStyles: {
     display: "flex",
     justifyContent: "space-between",
-
     float: "right",
     marginRight: "-10px",
     width: "125px",
-  }
+  },
 };
+
 const Card = (props) => {
   return (
     <div className="card" style={styles.cardStyles}>

@@ -2,10 +2,10 @@ import React from "react";
 
 const styles = {
   footerStyle: {
-      color: "red",
-      fontFamily: ['RocknRoll One', "sans-serif"]
-  }
-}
+    color: "red",
+    fontFamily: ["RocknRoll One", "sans-serif"],
+  },
+};
 
 const Footer = () => {
   return (
