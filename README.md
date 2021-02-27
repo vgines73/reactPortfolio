@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description:
 
-## Available Scripts
 
-In the project directory, you can run:
+## Table of Contents:
 
-### `npm start`
+* [Installation](#Installation)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* [Usage](#Usage)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* [License](#License)
 
-### `npm test`
+* [Contributing](#Contributing)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* [Test Instructions](#Test-Instructions)
 
-### `npm run build`
+* [Images](#Images)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* [Demo](#Demo)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* [Challenges](#Challenges)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* [Questions](#Questions)
 
-### `npm run eject`
+## Installation:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## License:
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-## Learn More
+## Contributing:
+Vincent Gines. Ask for a Pull Request from my Github profile if you would like to contribute to my Employee Directory App.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributing:
+Vincent Gines. Ask for a Pull Request from my Github profile if you would like to contribute to my Employee Directory App.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Test Instructions:
+Scroll down to the questions section and click my deployed link. It will take the user to view my portfolio containing info about myself, contact information, and past projects and assignments. 
 
-### Code Splitting
+## Images:
+Home Page about myself
+![screencapture-localhost-3000-home-2021-02-27-15_26_40](https://user-images.githubusercontent.com/71681031/109403203-6cfeaf00-7910-11eb-9eb9-dba53f580c39.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contact Page
+![screencapture-localhost-3000-contact-2021-02-27-15_27_00](https://user-images.githubusercontent.com/71681031/109403204-6ec87280-7910-11eb-8ff6-31c406842267.png)
 
-### Analyzing the Bundle Size
+PortFolio containing projects and assignments
+![screencapture-localhost-3000-portfolio-2021-02-27-15_27_28](https://user-images.githubusercontent.com/71681031/109403205-6ff99f80-7910-11eb-9af7-41f8a3950557.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Demo:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Challenges: 
+Converting previous portfolio to react was a challenge well more time consuming, creating components, layouts, and changing the assignments and projects into cards.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+---
+## Questions:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Link to my Github profile: https://github.com/vgines73
 
-### `npm run build` fails to minify
+Link to my repo: https://github.com/vgines73/reactPortfolio
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Link to my deployed heroku: https://react-portfolio-oh-yeah.herokuapp.com/
+
+You can reach me by email at: vgines73@gmail.com
+
+© 2021 Vincent Gines. All rights reserved. 

@@ -8,13 +8,9 @@ import Wrapper from "../Components/Wrapper/Wrapper";
 import Carousel from "../Components/Carousel/Carousel";
 import musicImage from "../Components/images/contact-images/music.jpg";
 import codingImage from "../Components/images/contact-images/coding.jpg";
+import resumepdf from '../Components/resume/vincentGinesResume.pdf'
 
 const styles = {
-  imageStyle: {
-    paddingTop: "50px",
-    alignItems: "center",
-    justifyContent: "center",
-  },
   mobileStyle: {
     fontSize: "40px",
   },
@@ -71,7 +67,6 @@ const Contact = () => {
                   <figure>
                     <i
                       className="fas fa-mobile-alt text-center"
-                      // style={styles.imageStyle}
                       style={styles.mobileStyle}
                       alt="phone"
                     ></i>
@@ -83,7 +78,6 @@ const Contact = () => {
                   <figure>
                     <i
                       className="fas fa-envelope text-center"
-                      // style={styles.imageStyle}
                       style={styles.envelopeStyle}
                       alt="envelope"
                     ></i>
@@ -98,13 +92,12 @@ const Contact = () => {
                   <figure>
                     <i
                       className="fas fa-file-pdf text-center"
-                      // style={styles.imageStyle}
                       style={styles.pdfStyle}
                       alt="pdf file"
                     ></i>
                     <br />
                     <a
-                      href="../Components/resume/vincentGinesResume.pdf"
+                      href={resumepdf}
                       style={styles.resumeStyle}
                       target="blank"
                     >
