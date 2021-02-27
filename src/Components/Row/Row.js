@@ -1,11 +1,5 @@
 import React from 'react'
 
-const Row = () => {
-  return (
-    <div>
-      <h1>Hello from Row</h1>
-    </div>
-  )
+export function Row({ fluid, children }) {
+  return <div className={`row${fluid ? "-fluid" : ""}`}>{children}</div>;
 }
-
-export default Row
