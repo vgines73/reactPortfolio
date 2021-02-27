@@ -43,6 +43,10 @@ const styles = {
   },
   animeStyle: {
     paddingTop: "45px"
+  },
+  musicCodingStyles: {
+    height: "200px",
+    width: "600px"
   }
 };
 
@@ -59,6 +63,7 @@ const Contact = () => {
               </Col>
               <Col size="md-4">
                 <Container>
+                  <br/>
                   <figure>
                     <i
                       className="fas fa-mobile-alt text-center"
@@ -107,6 +112,7 @@ const Contact = () => {
             </Row>
           </Col>
           <Col size="md-6">
+            <br/>
             <Carousel />
           </Col>
         </Row>
@@ -132,6 +138,7 @@ const Contact = () => {
                     src={musicImage}
                     alt="d.j. table mixer"
                     className="img-thumbnail music-coding"
+                    style={styles.musicCodingStyles}
                   />
                   <header>
                     <h2 className="text-center contact-text">Music</h2>
@@ -140,6 +147,7 @@ const Contact = () => {
                     src={codingImage}
                     alt="numbers water-fist fire-fist"
                     className="img-thumbnail music-coding"
+                    style={styles.musicCodingStyles}
                   />
                   <header>
                     <h2 className="text-center contact-text">Coding</h2>

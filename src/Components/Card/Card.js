@@ -10,8 +10,6 @@ const styles = {
     float: "right",
     marginRight: "-10px",
     width: "125px",
-    // right: 0
-    
   }
 };
 const Card = (props) => {

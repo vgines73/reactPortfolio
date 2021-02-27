@@ -17,6 +17,9 @@ const styles = {
   skill80: {
     width: "80%",
   },
+  iconsStyle: {
+    marginRight: "3px",
+  }
 };
 const Home = () => {
   return (
@@ -40,6 +43,7 @@ const Home = () => {
                   <a href="https://twitter.com/vincent_gines">
                     <i
                       className="fa fa-twitter"
+                      style={styles.iconsStyle}
                       aria-hidden="true"
                       target="blank"
                     ></i>
@@ -47,6 +51,7 @@ const Home = () => {
                   <a href="https://www.instagram.com/ichi_niji/">
                     <i
                       className="fab fa-instagram-square"
+                      style={styles.iconsStyle}
                       aria-hidden="true"
                       target="blank"
                     ></i>
@@ -54,6 +59,7 @@ const Home = () => {
                   <a href="https://www.facebook.com/vincent.gines.7">
                     <i
                       className="fab fa-facebook"
+                      style={styles.iconsStyle}
                       aria-hidden="true"
                       target="blank"
                     ></i>
@@ -61,16 +67,20 @@ const Home = () => {
                   <a href="https://github.com/vgines73">
                     <i
                       className="fab fa-github-square"
+                      style={styles.iconsStyle}
                       aria-hidden="true"
                       target="blank"
                     ></i>
                   </a>
                   <a
                     href="https://www.linkedin.com/in/vincent-gines-oh-yeah"
+                  >
+                    <i 
+                    className="fab fa-linkedin"
+                    style={styles.iconsStyle}
                     aria-hidden="true"
                     target="blank"
-                  >
-                    <i className="fab fa-linkedin"></i>
+                    ></i>
                   </a>
                 </nav>
               </Col>
