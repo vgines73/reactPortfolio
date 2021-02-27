@@ -95,7 +95,7 @@ const Contact = () => {
                     ></i>
                     <br />
                     <a
-                      href="./Assets/resume/vincentGinesResume.pdf"
+                      href="../Components/resume/vincentGinesResume.pdf"
                       style={styles.resumeStyle}
                       target="blank"
                     >

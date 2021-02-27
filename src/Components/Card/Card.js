@@ -4,9 +4,14 @@ const styles = {
     width: "17rem",
   },
   buttonStyles: {
-    justifyContent: "between",
+    display: "flex",
+    justifyContent: "space-between",
+
     float: "right",
-    marginLeft: "10px"
+    marginRight: "-10px",
+    width: "125px",
+    // right: 0
+    
   }
 };
 const Card = (props) => {
