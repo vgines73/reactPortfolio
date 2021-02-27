@@ -1,11 +1,28 @@
-import React from 'react'
-
-const Card = () => {
+import React from "react";
+const styles = {
+  cardStyles: {
+    width: "18rem",
+  
+  },
+};
+const Card = (props) => {
   return (
-    <div>
-      <h1>Hello from Card</h1>
+    <div className="card" style={styles.cardStyles}>
+      <img src={props.image} className="card-img-top" alt={props.name} />
+      <div className="card-body">
+        <h5 className="card-title">{props.title}</h5>
+        <p className="card-text">{props.text}</p>
+        <div className="justify-content-between">
+          <a href={props.repo} className="btn btn-primary">
+            Repo
+          </a>
+          <a href={props.link} className="btn btn-secondary">
+            Link
+          </a>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Card
+export default Card;

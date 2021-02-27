@@ -3,11 +3,12 @@ import { Col } from "../Components/Column/Col";
 import { Container } from "../Components/Container/Container";
 import { Row } from "../Components/Row/Row";
 import Wrapper from "../Components/Wrapper/Wrapper";
-import wrapperStyle from "../Components/Wrapper/WrapperStyles";
+import wrapperStyle from '../Components/Wrapper/WrapperStyles'
 import imageOne from "../Components/images/home-images/image1.jpeg";
 import imageTwo from "../Components/images/home-images/image2.jpg";
 import imageThree from "../Components/images/home-images/image3.jpeg";
 import imageFour from "../Components/images/home-images/image4.jpg";
+import Header from "../Components/Header/Header";
 
 const styles = {
   skill90: {
@@ -19,15 +20,15 @@ const styles = {
 };
 const Home = () => {
   return (
-    <Wrapper style={wrapperStyle.body}>
+    <Wrapper style={wrapperStyle.pads}>
       <Container fluid>
         <Row>
           <Col size="md-8">
             <Row>
               <Col size="md-4">
-                <div className="page-header">
-                  <h1 className="text-center">About Me</h1>
-                </div>
+                <Header>
+                  About Me
+                </Header>
                 <div>
                   <img
                     src={imageOne}
@@ -170,9 +171,9 @@ const Home = () => {
         {/* Hobbies and Interests */}
         <Row>
           <Col size="md-4">
-            <div>
+            <header>
               <h2 className="text-center">Hobbies and Interests</h2>
-            </div>
+            </header>
             <p>
               Besides being a sports fanatic and active in sports, I enjoy
               watching anime and horror movies, hanging out with my children,
