@@ -24,10 +24,16 @@ A revised Portfolio using React.
 * [Questions](#Questions)
 
 ## Installation:
+Must create react app:
 
+    npx create-react-app reactportfolio
+
+Must install dependencies:
+
+    npm install react-router-dom
 
 ## Usage:
-
+React JS React-Router-Dom Bootstrap
 
 ## License:
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
