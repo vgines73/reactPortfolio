@@ -1,7 +1,7 @@
 # React Portfolio
 
 ## Description:
-
+A revised Portfolio using React.
 
 ## Table of Contents:
 
