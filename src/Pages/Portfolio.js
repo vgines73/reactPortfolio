@@ -106,7 +106,7 @@ const Portfolio = () => {
                   name="employee directory"
                   title="Employee Directory"
                   image={employeeDirImage}
-                  text="React Search Employee Directory"
+                  text="React Employee Directory"
                   repo="https://github.com/vgines73/employeeDirectory"
                   link="https://employee-directory-oh-yeah.herokuapp.com/"
                 ></Card>
